@@ -1,0 +1,25 @@
+# credentials — never commit these
+.env
+*.key
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# logs (keep the sample, ignore future runs)
+logs/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# keep the sample log file
+!logs/trading_bot.log
